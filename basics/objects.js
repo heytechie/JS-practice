@@ -56,3 +56,14 @@ const newobj3 = {
 // extracting objects entries(array of entries)
 // const entries = Object.entries(newobj2);
 // console.log(entries);
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//OBJECTS DeSTRUCTURING
+const newobj6 = {
+  name: "Mansi",
+  age: 19,
+  location: "jabalpur",
+  college: "vit bhopal",
+};
+
+// const { location: stay } = newobj6;
+// console.log(stay);
