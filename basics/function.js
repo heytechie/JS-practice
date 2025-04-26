@@ -14,3 +14,13 @@
 //   return a + b;
 // };
 // console.log(add2(2, 3)); // 5
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// IIFE function : IIFE function ko define karne ka syntax hai (function() {})();
+(function add() {
+  console.log(1 + 2);
+})(); // always add semicolon at the end of IIFE function
+//this was named IIFE
+(() => {
+  console.log(1 + 2);
+})();
+//this was unamed IIFE
